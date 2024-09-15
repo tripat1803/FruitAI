@@ -1,0 +1,27 @@
+@apply dark;
+
+@media (max-width: 640px) {
+  .sm\:text-xl {
+    @apply text-base;
+  }
+
+  .sm\:text-sm {
+    @apply text-xs;
+  }
+
+  .sm\:block {
+    @apply hidden;
+  }
+
+  .sm\:flex-col {
+    @apply flex-row;
+  }
+
+  .sm\:m-auto {
+    @apply mx-auto;
+  }
+
+  .sm\:p-4 {
+    @apply p-2;
+  }
+}
